@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+header {
+    background-image: url(imagens/fundo1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 700px;
+
+
+}
+
+div#titulo {
+    
+}
+
+nav header ul {
+    
+}
