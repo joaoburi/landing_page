@@ -15,33 +15,41 @@
 }
 
 
+
 header nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: rgb(185, 17, 17);
+    
+    background-color: black;
+    
 }
 
 .nome {
     
 }
 
-.menu {
+.menu ul {
     display: flex;
-    list-style: none;
     
 }
 
 .item-menu {
+    
     margin: 0 15px;
+    list-style: none;
     
 }
 
 .link-menu {
+    
     text-decoration: none;
-    color: white;
+    color: #8b0000;
     font-size: 1.15rem;
     font-weight: 400;
+    
+    
+    
 }
 
 .botao-menu {
@@ -65,10 +73,13 @@ header nav {
 
     .botao-menu  {
         display: block;
+        
     }
 
     .botao-menu button {
+        
         background-color: transparent;
+        
         border: none;
         cursor: pointer;
         
