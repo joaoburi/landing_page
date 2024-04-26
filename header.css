@@ -19,13 +19,22 @@
 header nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.3rem;
     
-    background-color: white;
+    background-color: black;
+    text-shadow: 1px 1px 1px #8b0000;
+    
     
 }
 
 .nome {
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.ico {
+    font-size: larger;
     
 }
 
@@ -37,7 +46,9 @@ header nav {
 .item-menu {
     
     margin: 0 15px;
+    padding: 17px 0px;
     list-style: none;
+    
     
 }
 
@@ -45,11 +56,16 @@ header nav {
     
     text-decoration: none;
     color: #8b0000;
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     font-weight: 400;
+    padding-right: 15px;
     
     
-    
+}
+
+.link-menu:hover {
+    color: #FFC107;
+    transition-duration: 0.2s;
 }
 
 .botao-menu {
@@ -61,10 +77,11 @@ header nav {
 }
 
 
-@media screen and (max-width: 730px) {
-    header nav {
-        padding: 1.5rem 4rem;
-    }
+@media screen and (max-width: 850px) {
+
+    
+
+    
 
     
     .item-menu {
@@ -83,6 +100,7 @@ header nav {
         border: none;
         cursor: pointer;
         
+        
     }
 
     .mobile-menu ul {
@@ -98,10 +116,25 @@ header nav {
         padding-top: 1.2rem;
     }
 
+    .ico1 {
+        color: #8b0000;
+        font-size: 40px;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
     .open {
         display: block;
     }
 
+    @media screen and (max-width: 650px) {
 
-
+        #fundo {
+            
+            background-size: 700px;
+            
+            background-attachment: local;
+            background-color: rgb(0, 255, 17);
+        }
+    }
 }
