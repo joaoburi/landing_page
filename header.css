@@ -103,6 +103,11 @@ header nav {
         
     }
 
+    .mobile-menu {
+        background-color: #18191d;
+        
+    }
+
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
@@ -120,7 +125,7 @@ header nav {
         color: #8b0000;
         font-size: 40px;
         padding-top: 10px;
-        padding-right: 2waaaa0px;
+        padding-right: 20px;
     }
 
     .open {
@@ -129,11 +134,13 @@ header nav {
 
     @media screen and (max-width: 650px) {
 
-        #fundo {
+        header, #fundo {
+            
+       
             
             background-size: 700px;
+            background-size: contain;
             
-            background-attachment: local;
             background-color: rgb(0, 255, 17);
         }
     }
