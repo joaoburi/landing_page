@@ -140,7 +140,7 @@ header nav {
             
             background-size: 700px;
             background-size: contain;
-            
+            background-position: top;
             background-color: rgb(11, 38, 243);
         }
     }
